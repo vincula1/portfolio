@@ -1,0 +1,212 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    padding: 10px 10px 10px 0px;
+    background-color: #31343D
+}
+
+header h2 {
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: end;
+    padding: 10px;
+    font-size: 30px;
+}
+
+header nav {
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+}
+
+nav ul li {
+    padding-left: 10%;
+}
+
+figure {
+    background-image: url(https://images.unsplash.com/photo-1506765515384-028b60a970df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80);
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.section h2 {
+    width: 10%;
+    text-align: right;
+    padding-right: 1%;
+    border-right: 1px solid black; 
+    padding-top: 1%;
+}
+
+.section section {
+    width: 90%;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.overlay-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#label {
+    color: #475876;
+    font-size: 35px;
+}
+
+#paragraph {
+    padding: 0px 30px;
+    width: 75%;
+    color: #475876;
+    font-size: 20px;
+}
+
+.section {
+    padding: 0px 0px 0px 30px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+}
+
+.project {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 3px solid black;
+    background-image: url(https://images.unsplash.com/photo-1582572186057-0e74d3c715ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2127&q=80);
+}
+
+.project1 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    background-image: url(https://images.unsplash.com/photo-1582572186057-0e74d3c715ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2127&q=80);
+}
+
+.project2 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    background-image: url(https://images.unsplash.com/photo-1594882645126-14020914d58d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2085&q=80);
+}
+
+.project3 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    background-image: url(https://images.unsplash.com/photo-1586165368502-1bad197a6461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2158&q=80);
+}
+
+.project4 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    background-image: url(https://images.unsplash.com/photo-1586380951230-e6703d9f6833?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80);
+}
+
+.project5 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    background-image: url(https://images.unsplash.com/photo-1657904906400-5eebf3233633?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80);
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.overlay p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+
+.project:hover .overlay {
+    opacity: 1;
+}
+
+.contact-section {
+    padding: 20px;
+    background-color: #f9f9f9; /* Adjust as necessary */
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.contact-item {
+    margin-right: 20px;
+}
+
+
+.contact-item a {
+    font-size: 20px;
+    color: #475876;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .contact-item {
+      margin-right: 10px;
+    }
+  
+    .project {
+      width: 48%;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .contact-item {
+      margin-right: 20px;
+    }
+  
+    .project {
+      width: 46%;
+    }
+  }
+  
+  .container, .contact-section, nav, .section {
+    padding: 1em;
+  }
