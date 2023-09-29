@@ -1,9 +1,9 @@
 # portfolio
 
 ## Description:
-This is a mock portfolio, in which I impliment a header with a name, a banner with an image inside of it, a list of work with fading on the mouse hover, and a contact me section. This highlights what we have learned, when it comes to HTML and CSS. 
+In this sample portfolio, I’ve created a header that includes a name and a banner that encompasses an image. There's also a section listing various works, featuring a fading effect upon mouse hover, and a 'Contact Me' section. This portfolio is a representation of my grasp on HTML and CSS concepts learned recently. The last module was quite enlightening, introducing me to a plethora of concepts. The main aim here is to demonstrate the practical application of these newly acquired skills and concepts, providing a clear and concise showcase of my learning.
 
 
-![Screenshot Description](./Assets/03-javascript-homework-demo.png)
+![Screenshot Description](./assets/Portfolio.png)
 
-[Link to website](https://vincula1.github.io/passwordgen/Develop/)
+[Link to website](https://vincula1.github.io/portfolio/)
