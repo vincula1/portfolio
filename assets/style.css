@@ -1,3 +1,5 @@
+/* Setting properties for the header */
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -5,6 +7,8 @@ header {
     padding: 10px 10px 10px 0px;
     background-color: #31343D
 }
+
+/* Setting properties for the name */
 
 header h2 {
     width: 100%;
@@ -14,9 +18,13 @@ header h2 {
     font-size: 30px;
 }
 
+/* Setting width for the navigation */
+
 header nav {
     width: 70%;
 }
+
+/* Setting navigation style for the unordered list */
 
 nav ul {
     display: flex;
@@ -28,6 +36,8 @@ nav ul {
 nav ul li {
     padding-left: 10%;
 }
+
+/* This is for the banner */
 
 figure {
     background-image: url(https://images.unsplash.com/photo-1506765515384-028b60a970df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80);
@@ -43,6 +53,8 @@ figure {
     width: 100%;
 }
 
+/* About me section */
+
 .section h2 {
     width: 10%;
     text-align: right;
@@ -50,6 +62,7 @@ figure {
     border-right: 1px solid black; 
     padding-top: 1%;
 }
+
 
 .section section {
     width: 90%;
@@ -62,6 +75,8 @@ figure {
     align-items: center;
     justify-content: center;
 }
+
+/* Labels on the left */
 
 #label {
     color: #475876;
@@ -84,6 +99,8 @@ figure {
     flex-wrap: wrap;
     padding: 35px;
 }
+
+/* For pictures of the projects, getting url positioning etc */
 
 .project {
     position: relative;
@@ -134,6 +151,7 @@ figure {
     background-image: url(https://images.unsplash.com/photo-1657904906400-5eebf3233633?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80);
 }
 
+/* For the fading in and out effect when hovering mouse over it */
 
 .overlay {
     position: absolute;
@@ -159,10 +177,15 @@ figure {
     opacity: 1;
 }
 
+/* Contact Me section */
+
+/* Background */
 .contact-section {
     padding: 20px;
-    background-color: #f9f9f9; /* Adjust as necessary */
+    background-color: #f9f9f9;
 }
+
+/* Editing for the text */
 
 .contact-info {
     display: flex;
@@ -176,16 +199,19 @@ figure {
     margin-right: 20px;
 }
 
-
 .contact-item a {
     font-size: 20px;
     color: #475876;
     text-decoration: none;
 }
 
+/* Gets underline effect when hovered */
+
 .contact-item a:hover {
     text-decoration: underline;
 }
+
+/* Changes for different platforms */
 
 @media (min-width: 601px) and (max-width: 768px) {
     .contact-item {
